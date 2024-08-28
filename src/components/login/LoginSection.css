@@ -1,0 +1,58 @@
+
+.card {
+    border-radius: 5px;    
+  }
+  
+  .card-header {
+    background-color: rgb(1, 175, 244);
+    color: #fff;  
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  
+  
+  .btn-primary {
+    background-color:rgb(1, 175, 244);
+    /* border-color: #007bff;     */
+  }
+  
+  .btn-primary:hover {
+    background-color: #f0ad4e;
+    /* border-color: #0056b3; */
+  }
+
+
+
+  /* background image */
+  .blur-background {
+    background-image: url('../../assets/images/home/bg9.jpg');   
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh; 
+    overflow: hidden;
+  }
+  
+  .blur-background:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    background-attachment: fixed;
+    filter: blur(3px);
+   
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    text-align: center;
+    color: white; 
+  }
+  
+  

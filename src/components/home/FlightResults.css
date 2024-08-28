@@ -1,0 +1,9 @@
+.hero-img{
+    border-radius: 20px;
+    background-image: url("../../assets/images/booking/offer_img.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    width: 350px !important;
+    float: inline-end;    
+}
+
